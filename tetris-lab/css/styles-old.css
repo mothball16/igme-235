@@ -1,0 +1,29 @@
+/* Do everything in this file */
+h2 {
+    border-bottom: 1px solid red;
+    clear: both;
+}
+
+figure {
+    float: right;
+    width: 40vw;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    margin: 8px;
+}
+
+#tetlist {
+    float: left;
+    width: 60vw;
+    border: 1px solid blue;
+}
+
+footer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -10;
+}

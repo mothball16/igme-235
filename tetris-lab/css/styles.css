@@ -1,0 +1,63 @@
+/* Do everything in this file */
+h2 {
+    border-bottom: 1px solid red;
+    clear: both;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    max-width: 650px;
+    margin: 0 auto;
+}
+header, main, footer {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    margin: 8px;
+}
+
+#tetlist {
+    display: flex;
+    flex-flow: row wrap;
+    float: left;
+    width: 60vw;
+    border: 1px solid blue;
+}
+
+.tet {
+    flex: 1 1 500px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.aliases {
+    margin: 1rem;
+    text-align: left;
+}
+
+#tetlist img {
+    width: 60%;
+    height: auto;
+}
+
+#tetlist span {
+    display: block;
+    font-weight: bold;
+    margin: 1rem auto;
+    font-size: 30px;
+}
+footer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -10;
+    width: auto;
+    margin: 0;
+}
